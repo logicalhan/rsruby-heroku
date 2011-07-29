@@ -1,11 +1,11 @@
 Gem::Specification.new do |s|
-  s.name = %q{rsruby}
+  s.name = %q{rsruby-heroku}
   s.version = "0.5.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Alex Gutteridge"]
   s.date = %q{2008-11-19}
-  s.description = %q{RSRuby is a bridge library for Ruby giving Ruby developers access to the full R statistical programming environment. RSRuby embeds a full R interpreter inside the running Ruby script, allowing R methods to be called and data passed between the Ruby script and the R interpreter. Most data conversion is handled automatically, but user-definable conversion routines can also be written to handle any R or Ruby class.}
+  s.description = %q{rsruby-heroku is a version of RSRuby that bundles a precompile R shared library and R headers. RSRuby is a bridge library for Ruby giving Ruby developers access to the full R statistical programming environment. RSRuby embeds a full R interpreter inside the running Ruby script, allowing R methods to be called and data passed between the Ruby script and the R interpreter. Most data conversion is handled automatically, but user-definable conversion routines can also be written to handle any R or Ruby class.}
   s.email = %q{ag357@cam.ac.uk}
   s.extensions = ["ext/extconf.rb"]
   s.extra_rdoc_files = ["README.txt", "History.txt", "License.txt", "examples/bioc.rb", "examples/dataframe.rb", "examples/arrayfields.rb", "examples/erobj.rb"]
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib", "test", "ext"]
   s.rubyforge_project = %q{rsruby}
   s.rubygems_version = %q{1.3.1}
-  s.summary = %q{RSRuby is a bridge library for Ruby giving Ruby developers access to the full R statistical programming environment. RSRuby embeds a full R interpreter inside the running Ruby script, allowing R methods to be called and data passed between the Ruby script and the R interpreter. Most data conversion is handled automatically, but user-definable conversion routines can also be written to handle any R or Ruby class.}
+  s.summary = %q{rsruby-heroku is a version of RSRuby that bundles a precompile R shared library and R headers. RSRuby is a bridge library for Ruby giving Ruby developers access to the full R statistical programming environment. RSRuby embeds a full R interpreter inside the running Ruby script, allowing R methods to be called and data passed between the Ruby script and the R interpreter. Most data conversion is handled automatically, but user-definable conversion routines can also be written to handle any R or Ruby class.}
   s.test_files = ["test/test_all.rb"]
 
   if s.respond_to? :specification_version then
