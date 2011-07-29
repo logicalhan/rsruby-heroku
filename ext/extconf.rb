@@ -1,6 +1,6 @@
 require 'mkmf'
 
-dir_config('R')
+dir_config('R', 'R/include', 'R/lib')
 unless have_library("R")
   $stderr.puts "\nERROR: Cannot find the R library, aborting."
   exit 1
